@@ -1,0 +1,115 @@
+@media screen and (max-width: 1200px) {
+  .header-container, .banner-container, .skills-container,
+  .services-container, .portfolio-container, .about-container,
+  .contact-container, .footer-container {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .banner-heading, .skills-heading,
+  .services-heading, .portfolio-heading, .about-heading,
+  .contact-heading {
+    font-size: 44px;
+  }
+  .service-description, .about-description {
+    font-size: 18px;
+  }
+  .contact-input {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header-container, .banner-container, .skills-container,
+  .services-container, .portfolio-container, .about-container,
+  .contact-container, .footer-container {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .portfolio-image {
+    width: 100%;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .about-image {
+    margin-top: 20px;
+    width: 35%;
+  }
+  .about-info {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 685px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .header-a {
+    font-size: 20px;
+  }
+  .contact-inner {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+  .contact-form, .contact-info {
+    width: 100%;
+  }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .footer-copyright {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .footer-ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-a {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header-container, .banner-container, .skills-container,
+  .services-container, .portfolio-container, .about-container,
+  .contact-container, .footer-container {
+    max-width: 100%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .service-item {
+    width: 100%;
+  }
+  .about-image {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

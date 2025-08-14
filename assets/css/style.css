@@ -1,0 +1,698 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+header{
+	width:100%;
+	height:100%;
+	padding:10px 0px;
+	margin:0px auto;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	background-color:#663d6b94;;
+}
+nav a{
+	transition:all 400ms;
+}
+nav a:hover{
+	color:#663d6b94;
+}
+body{
+	background-color:rgb(221, 217, 221);
+}
+ul{
+	list-style-type:none;
+	padding:10px 0px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+li{
+	margin-right:30px;
+	display:inline-block;
+}
+a{
+	color:#fff;
+	font-size:16.5px;
+	text-decoration:none;
+}
+#logo{
+	margin-left:50px;
+	font-family:'Italianno', cursive;
+}
+#pozadina{
+	background-image: url(../img/salon1.jpg);
+	width:100%;
+	height:690px;
+	background-position:center;
+	background-size:cover;
+	justify-content:center;
+	position:relative;
+}
+#pocetna{
+	margin-top: 75px;
+}
+#region1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.slika{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.text{
+	width: 50%;
+}
+.text h2{
+	color:#663d6b94;
+	text-align:center;
+	font-family:'Italianno', cursive;
+}
+.text p{
+	color:#747171;
+	text-align:justify;
+	font-size:16.3px;
+	font-family:'Italianno', cursive;
+	padding:40px;
+}
+#pocetna-druga{
+	margin-top: 40px;
+}
+#region2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+.slika-druga{
+	/*padding: 50px;*/
+	margin-right:30px;
+	margin-top:30px;
+}
+.tekst{
+	width: 50%;
+}
+.tekst p{
+	color:#747171;
+	text-align:justify;
+	font-size:16.3px;
+	font-family:'Italianno', cursive;
+	padding: 40px;
+}
+#razlog{
+	margin-top: 30px;
+}
+.region3 h2{
+	color:#663d6b94;
+	text-align:center;
+	padding:40px;
+	font-family:'Italianno', cursive;
+	margin-left:5px;
+}
+.region3 p{
+	color:#747171;
+	text-align:center;
+	font-size:16.3px;
+	font-family:'Italianno', cursive;
+	padding:30px;
+}
+#primeri{
+	display: flex;
+	margin-top: 60px;
+	justify-content: space-around;
+}
+.primer img:hover{
+	transform: scale(1.05);
+}
+footer{
+	width:100%;
+	height:100%;
+	padding:15px 0px;
+	margin:0px auto;
+	display:flex;
+	justify-content:space-between;
+	background-color:#663d6b94;;
+	flex-wrap:wrap;
+}
+.kolona-1 p{
+	color:#fff;
+	margin-left:35px;
+	font-size:16.3px;
+	font-family:'Italianno', cursive;
+}
+.kolona-1 i{
+	font-size:16.3px;
+	font-family:'Italianno', cursive;
+}
+#about{
+	margin-top: 60px;
+}
+
+.naslov-about h2{
+	text-align:center;
+	color:#663d6b94;
+	font-family:'Italianno', cursive;
+	padding:40px;
+}
+.author-naslov h2{
+	text-align:center;
+	color: #663d6b94;
+	font-family:'Italianno', cursive;
+	margin-top: 30px;
+}
+.author-text p{
+	justify-content: center;
+	text-align:justify;
+	color:#747171;
+	font-family:'Italianno', cursive;
+	font-size:16px;
+	margin-top: 40px;
+	margin-left: 70px;
+	width:70%;
+	margin-bottom:40px;
+}
+.author-slika{
+	margin-top: 40px;
+	margin-right: 40px;
+	width:80%;
+}
+.author-slika img:hover{
+		transform: scale(1.02);
+}
+.blok-author{
+	display:flex;
+	justify-content: center;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+#services{
+	display: flex;
+	justify-content: space-around;
+}
+#levo{
+	 width:45%;
+}
+.levi-blok{
+       padding:20px;
+	   margin:0px auto;
+}
+.levi-blok h3{
+	color: #663d6b94;
+	font-family:'Italianno', cursive;
+	text-align:center;
+	padding:20px;
+}
+.levi-blok p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align:justify;
+	font-size:16.5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 150px;
+}
+.levi-blok img{
+	margin-left:150px;
+	 margin-top: 20px;
+}
+.slika-lblok:hover img{
+	transform:scale(1.05);
+}
+#desno{
+	width:45%;
+	margin-bottom: 35px;
+}
+.desni-blok{
+       padding:20px;
+	   margin:0px auto;
+}
+.desni-blok h3{
+	color:#663d6b94;
+	font-family:'Italianno', cursive;
+	text-align:center;
+	padding:20px;
+}
+.desni-blok p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align:justify;
+	font-size:16.5px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 150px;
+}
+.desni-blok img{
+	 margin-left:150px;
+	 margin-top: 20px;
+}
+.slika-dblok:hover img{
+	transform:scale(1.05);
+}
+.naslov-reservations h2{
+	color:#663d6b94;
+	font-family:'Italianno', cursive;
+	text-align:center;
+	margin-top: 30px;
+}
+.rezervacije{
+    margin-top:25px;
+	display:flex;
+	justify-content: center;
+}
+.rez-info {
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align:center;
+	font-size:16px;
+	padding:20px;
+	margin-top: 55px;
+	flex-direction:column;
+	width:53%;
+}
+.rez-forma{
+	display:flex;
+	flex-direction:column;
+	margin-top: 30px;
+	margin-right: 50px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family:'Italianno', cursive;
+}
+.contact-input {
+  padding: 8px 14px;
+  color: #2c2c2c;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  font-family:'Italianno', cursive;
+  margin-left: 3px;
+  width: 194px;
+}
+.contact-textarea {
+  resize: none;
+  width:423px;
+  min-height: 110px;
+  height: 110px;
+  font-family:'Italianno', cursive;
+}
+.contact-button {
+  background-color: white;
+  padding: 12px 26px;
+  border-radius: 9999px;
+  font-size: 15px;
+  color: #2c2c2c;
+  border: 1px solid #fff;
+  transition: 300ms linear;
+  font-family:'Italianno', cursive;
+  width:20%;
+  align-items:center;
+  cursor: pointer;
+}
+.contact-button:hover {
+  background-color: #ad7faa;
+  border: 1px solid #ad7faa;
+  color: white;
+}
+.time-date{
+  font-family:'Italianno', cursive;
+  color: #2c2c2c;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  padding: 8px 14px;
+  width: 194px;
+  margin-left: 3px;
+}
+.dugme{
+	justify-content:center;
+	text-align:center;
+}
+.naslov-location h2{
+	color:#663d6b94;
+	font-family:'Italianno', cursive;
+	text-align:center;
+	padding:30px;
+}
+.lokacija{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	width:100%;
+	margin-bottom: 60px;
+}
+.loc-map{
+	width:45%;
+	margin-top: 30px;
+	margin-left:80px;
+}
+iframe{
+	border-radius:10px;
+}
+.loc-text{
+	width:45%;
+	margin-right:80px;
+}
+.loc-text p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align:justify;
+	padding:20px;
+	font-size:16px;
+	margin-top:20px;
+}
+b{
+	color:#663d6b94;
+}
+.linija-rez hr{
+	width:90%;
+	margin:0px auto;
+	margin-top: 30px;
+}
+.icon{
+	display:flex;
+	gap:30px;
+	margin-right:40px;
+	font-size:20px;
+	align-items: center
+}
+.icon i{
+	width:20px;
+	height:20px;
+	color:#fff;
+}
+#iskustvo{
+	margin-top: 130px;
+}
+.naslov-iskustvo h2{
+		color: #663d6b94;
+		text-align: center;
+		font-family:'Italianno', cursive;
+}
+#kartice-iskustvo{
+	display: flex;
+	justify-content: space-around;
+	margin: 0px auto;
+	margin-top: 65px;
+	width: 87%;
+	margin-bottom:85px;
+}
+.kartica-iskustvo1{
+	width: 240px;
+	height: 135px;
+	background-color: #663d6b94;
+	border-radius: 7px;
+}
+.kartica-iskustvo1 p{
+	color: #fff;
+	font-family: 'Italianno', cursive;
+	font-style: italic;
+	font-size: 15px;
+	margin-top: 20px;
+	padding: 7px;
+}
+.aboutus{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.aboutus-text{
+	width: 50%;
+	margin-right: 70px;
+	flex-direction: column;
+}
+.aboutus-text p{
+	color:#747171;
+	text-align:justify;
+	font-size:16.3px;
+	font-family:'Italianno', cursive;
+	display: flex;
+	justify-content: center;
+}
+.about-slika{
+	margin-right: 40px;
+}
+#vizija{
+		margin-top: 80px;
+}
+.our-vision{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text-vision{
+	width: 50%;
+	justify-content: center;
+	flex-direction: column;
+}
+.text-vision h2{
+	text-align: center;
+	color: #663d6b94;
+	font-family:'Italianno', cursive;
+}
+.viz{
+	margin-top: 15px;
+	margin-left: 100px;
+}
+.viz li{
+	text-align: justify;
+    font-family:'Italianno', cursive;
+	color:#747171;
+	padding-top: 10px;
+}
+#misija{
+	margin-top: 160px;
+	margin-bottom: 70px;
+}
+.our-mission{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.mission-text{
+	width: 50%;
+	text-align: justify;
+	flex-direction: column;
+}
+.mis{
+	margin-top: 25px;
+}
+.mission-text h2{
+	text-align: center;
+	color: #663d6b94;
+	font-family:'Italianno', cursive;
+}
+.mis li{
+	text-align: justify;
+    font-family:'Italianno', cursive;
+	color:#747171;
+	padding-top: 10px;
+}
+.linijahr hr{
+		width: 75%;
+		height: 1.2px;
+		background-color: #663d6b94;
+		margin-top: 85px;
+		margin-left: 175px;
+}
+#our-team{
+	margin-top: 85px;
+	margin-bottom: 60px;
+}
+.naslov-team h2{
+	text-align: center;
+	color: #663d6b94;
+	font-family:'Italianno', cursive;
+}
+.our-team-slike{
+	margin-top: 65px;
+	display: flex;
+	justify-content: space-around;
+}
+.team1 img{
+	border-radius: 6px;
+}
+.team1 p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align: center;
+	font-style: italic;
+}
+.team2 img{
+	border-radius: 6px;
+}
+.team2 p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align: center;
+	font-style: italic;
+}
+.team3 img{
+	border-radius: 6px;
+}
+.team3 p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align: center;
+	font-style: italic;
+}
+.team4 img{
+	border-radius: 6px;
+}
+.team4 p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align: center;
+	font-style: italic;
+}
+.team5 img{
+	border-radius: 6px;
+}
+.team5 p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align: center;
+	font-style: italic;
+}
+.team1{
+	margin: 15px;
+}
+.team2{
+	margin: 15px;
+}
+.team3{
+	margin: 15px;
+}
+.team4{
+	margin: 15px;
+}
+.team5{
+	margin: 15px;
+}
+.team1 img:hover{
+	transform: scale(1.03);
+}
+.team2 img:hover{
+	transform: scale(1.03);
+}
+.team3 img:hover{
+	transform: scale(1.03);
+}
+.team4 img:hover{
+	transform: scale(1.03);
+}
+.team5 img:hover{
+	transform: scale(1.03);
+}
+.naslov-radovi h2{
+	text-align: center;
+	color: #663d6b94;
+	font-family:'Italianno', cursive;
+	padding: 60px;
+}
+#radovi-nokti{
+	display: flex;
+	justify-content: center;
+}
+.slika-nokti{
+	margin: 0px 30px;
+}
+.slika-nokti img{
+	   width: 100%;
+       height: 270px;
+	   border-radius: 7px;
+}
+.slika-nokti img:hover{
+	transform: scale(1.03);
+}
+.slika-nokti p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align: center;
+	font-style: italic;
+	padding-top: 10px;
+}
+#radovi-lift{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+.slika-lift{
+	margin: 0px 30px;
+}
+.slika-lift img{
+	   width: 100%;
+       height: 270px;
+	   border-radius: 7px;
+}
+.slika-lift p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align: center;
+	font-style: italic;
+	padding-top: 10px;
+}
+.slika-lift img:hover{
+	transform: scale(1.03);
+}
+#radovi-lice{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+.slika-lice{
+	margin: 0px 30px;
+}
+.slika-lice img{
+	   width: 100%;
+       height: 270px;
+	   border-radius: 7px;
+}
+.slika-lice img:hover{
+	transform: scale(1.03);
+}
+.slika-lice p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align: center;
+	font-style: italic;
+	padding-top: 10px;
+}
+#radovi{
+	margin-bottom: 65px;
+}
+#radovi-botox{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+.slika-botox{
+	margin: 0px 30px;
+}
+.slika-botox img{
+	   width: 100%;
+       height: 270px;
+	   border-radius: 7px;
+}
+.slika-botox img:hover{
+	transform: scale(1.03);
+}
+.slika-botox p{
+	color:#747171;
+	font-family:'Italianno', cursive;
+	text-align: center;
+	font-style: italic;
+	padding-top: 10px;
+}
+.name{
+	display: flex;
+}
+.text-email{
+	display: flex;
+}
+.date-time{
+	display: flex;
+}

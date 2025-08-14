@@ -1,0 +1,36 @@
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin sectionContainer($max-width, $horizontal-padding) {
+    max-width: $max-width;
+    margin: auto;
+    padding-left: $horizontal-padding;
+    padding-right: $horizontal-padding;
+}
+
+@mixin flexRowSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flexRowCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin sectionHeading {
+    font-size: 36px;
+    color: $main-text-color;
+    text-align: center;
+}
