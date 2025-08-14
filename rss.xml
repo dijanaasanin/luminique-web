@@ -2,14 +2,15 @@
 <rss version="2.0">
 <channel>
     <title>Reservations</title>
-    <link></link>
+    <link>https://dijanaasanin.github.io/luminique-web/reservations.html</link>
     <description>Book your appointment in our beauty salon and enjoy moments of care and relaxation. Our team is dedicated to 
 	  providing you with a personalized experience with treatments tailored to your needs. Book online easily and quickly.</description>
     <item>
     <title>Services</title>
-    <link></link>
+    <link>https://dijanaasanin.github.io/luminique-web/services.html</link>
     <description>We offer a wide range of facial, body and relaxation services, including facials, massages, manicures, 
 	  pedicures and more. Enjoy personalized care with a professional team and top products that refresh and revitalize.</description>
     </item>
 </channel>
+
 </rss>
